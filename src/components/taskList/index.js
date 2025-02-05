@@ -9,13 +9,11 @@ const TaskList = (props) => {
         )
     }
 
-    console.log(props.tasks);
-
     return (
         <div className={styles.taskList}>
-            {props.tasks.map(task => {
+            {props.tasks.map((task, index) => {
                 return (
-                    <div key={props.tasks}>{task.title}</div>
+                    <div key={task + index}>{task.title}</div>
                 )
             })}
         </div>
