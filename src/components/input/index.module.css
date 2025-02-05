@@ -1,0 +1,21 @@
+.inputContainer {
+    display: flex;
+    gap: 6px;
+}
+
+.input {
+    height: 38px;
+    width: 248px;
+    border-radius: 6px;
+    border: 1px solid #71717A;
+}
+
+.button {
+    height: 40px;
+    padding: 8px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    background: #3C82F6;
+    border: 0;
+    color: white;
+}
